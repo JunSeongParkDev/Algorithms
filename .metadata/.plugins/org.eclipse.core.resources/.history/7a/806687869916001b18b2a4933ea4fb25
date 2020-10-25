@@ -1,0 +1,31 @@
+package programmers.level1;
+
+import java.util.Arrays;
+
+public class Solution_두개뽑아서더하기 {
+	
+    public int[] solution(int[] numbers) {
+        int[] answer = {};
+        boolean[] isMaked = new boolean[201];
+        int[] combination = new int[2];
+        makeCombination(combination, numbers, 0, 0);
+        
+        
+        return answer;
+    }
+	
+	private void makeCombination(int[] combination, int[] numbers, int index, int before) {
+		if(index == combination.length) {
+			System.out.println(Arrays.toString(combination));
+		} else {
+			for (int i = before; i < numbers.length; i++) {
+				combination[index] = i;
+				makeCombination(combination, numbers, index+1, before+1);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+	}
+}
