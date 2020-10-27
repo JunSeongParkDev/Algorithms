@@ -1,0 +1,17 @@
+package programmers.level1;
+
+import java.util.Arrays;
+
+public class Solution_문자열내림차순으로배치하기 {
+    public String solution(String s) {
+    	char[] sorted = s.toCharArray();
+    	Arrays.toString(sorted);
+    	StringBuilder sb = new StringBuilder(String.valueOf(sorted));
+    	return sb.reverse().toString();
+    }
+    
+    public static void main(String[] args) {
+    	Solution_문자열내림차순으로배치하기 s = new Solution_문자열내림차순으로배치하기();
+		System.out.println(s.solution("Zbcdefg"));
+	}
+}
