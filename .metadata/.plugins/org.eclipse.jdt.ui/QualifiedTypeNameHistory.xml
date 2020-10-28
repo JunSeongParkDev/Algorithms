@@ -35,5 +35,7 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="programmers.level1.Solution_자연수뒤집어배열로만들기"/>
+<fullyQualifiedTypeName name="programmers.level1.Solution_정수내림차순으로배치하기"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="programmers.level1.Solution_최대공약수와최소공배수"/>
 </qualifiedTypeNameHistroy>
