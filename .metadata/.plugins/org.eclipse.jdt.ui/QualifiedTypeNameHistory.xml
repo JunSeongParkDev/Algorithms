@@ -27,9 +27,6 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="programmers.level1.Solution_시저암호"/>
 <fullyQualifiedTypeName name="programmers.level1.Solution_약수의합"/>
-<fullyQualifiedTypeName name="sun.util.locale.StringTokenIterator"/>
-<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="programmers.level1.Solution_이상한문자만들기"/>
 <fullyQualifiedTypeName name="programmers.level1.Solution_자릿수더하기"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -38,4 +35,11 @@
 <fullyQualifiedTypeName name="programmers.level1.Solution_정수내림차순으로배치하기"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="programmers.level1.Solution_최대공약수와최소공배수"/>
+<fullyQualifiedTypeName name="programmers.level1.Solution_콜라츠추측"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="sun.util.locale.StringTokenIterator"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
