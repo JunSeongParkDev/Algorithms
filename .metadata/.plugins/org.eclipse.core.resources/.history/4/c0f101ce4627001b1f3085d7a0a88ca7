@@ -1,0 +1,45 @@
+package programmers.level1;
+
+import java.util.Arrays;
+
+public class Solution_다트게임 {
+    public int solution(String dartResult) {
+        int answer = 0;
+        int[] score = new int[3];
+        int gameSeq = 0;
+        String number = "";
+        for (int i = 0; i < dartResult.length(); i++) {
+        	char c = dartResult.charAt(i);
+        	switch(c) {
+        	case 'S':
+        		score[gameSeq++] = Integer.parseInt(number) * 1;
+        		number = "";
+        		break;
+        	case 'D':
+        		score[gameSeq++] = Integer.parseInt(number) * 2;
+        		number = "";
+        		break;
+        	case 'T':
+        		score[gameSeq++] = Integer.parseInt(number) * 3;
+        		number = "";
+        		break;
+        	case '#':
+        		score[gameSeq-1] *= -1;
+        		break;
+        	case '*':
+        		score[gameSeq-1] *= 2;
+        		break;
+        	default:
+        		number += c;
+        		break;
+        	}
+		}
+        System.out.println(Arrays.toString(score));
+        return answer;
+    }
+    
+    public static void main(String[] args) {
+		Solution_다트게임 s = new Solution_다트게임();
+		System.out.println(s.solution("1S2D*3T"));
+	}
+}

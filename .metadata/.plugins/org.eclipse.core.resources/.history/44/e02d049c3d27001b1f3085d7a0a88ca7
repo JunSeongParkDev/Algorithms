@@ -1,0 +1,20 @@
+package programmers.level1;
+
+import java.util.Arrays;
+
+public class Solution_비밀지도 {
+    public String[] solution(int n, int[] arr1, int[] arr2) {
+        String[] answer = {};
+        for (int i = 0; i < arr1.length; i++) {
+			System.out.println(Integer.toBinaryString(arr1[i]));
+		}
+        return answer;
+    }
+    
+    public static void main(String[] args) {
+    	Solution_비밀지도 s = new Solution_비밀지도();
+    	int[] arr1 = {9, 20, 28, 18, 11};
+    	int[] arr2 = {30, 1, 21, 17, 28};
+		System.out.println(Arrays.toString(s.solution(5, arr1, arr2)));
+	}
+}

@@ -1,0 +1,11 @@
+package programmers.level1;
+
+public class Solution_비밀지도 {
+    public String[] solution(int n, int[] arr1, int[] arr2) {
+        String[] answer = {};
+        for (int i = 0; i < arr1.length; i++) {
+			System.out.println(Integer.toBinaryString(arr1[i]));
+		}
+        return answer;
+    }
+}
