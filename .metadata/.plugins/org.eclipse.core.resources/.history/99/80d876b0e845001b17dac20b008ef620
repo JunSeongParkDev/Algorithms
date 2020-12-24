@@ -1,0 +1,20 @@
+package programmers.level2;
+
+public class Solution_프린터 {
+    public int solution(int[] priorities, int location) {
+        int answer = 0;
+        int pointer = 0;
+        while(priorities[location] != 0) {
+        	for (int i = 0; i < priorities.length; i++) {
+				if(priorities[pointer] < priorities[i]) {
+					pointer++;
+					break;
+				}
+			}
+        	priorities[pointer++] = 0;
+        	answer++;
+        }
+        
+        return answer;
+    }
+}

@@ -1,0 +1,28 @@
+package programmers.level2;
+
+public class Solution_프린터 {
+    public int solution(int[] priorities, int location) {
+        int answer = 0;
+        int pointer = 0;
+        while(true) {
+        	for (int i = 0; i < priorities.length; i++) {
+				if(priorities[pointer] < priorities[i]) {
+					pointer++;
+					break;
+				}
+			}
+        	if(pointer != location) {
+        		priorities[pointer++] = 0;
+        		answer++;
+        	}
+        	else break;
+        }
+        
+        return answer;
+    }
+    
+    public static void main(String[] args) {
+		Solution_프린터 s = new Solution_프린터();
+		System.out.println(s.solution(new int[] {2, 1, 3, 2}, 2));
+	}
+}
